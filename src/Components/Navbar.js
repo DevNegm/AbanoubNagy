@@ -34,9 +34,7 @@ useEffect(() => {
                 <li>
                     <NavLink to="/" className="NavLink">Home</NavLink>
                 </li>
-                <li>
-                    <a href="/#about" className="NavLink">About</a>
-                </li>
+             
                 <li>
                     <NavLink to="/projects" className="NavLink">Work</NavLink>
                 </li>

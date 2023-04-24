@@ -1,13 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Page404() {
   return (
-    <div className="page-404">
-    <h1 style={{ textAlign: "center", fontSize: "2em" }}>Page Not Found</h1>
-    <p style={{ textAlign: "center", fontSize: "1em" }}>The page you are looking for could not be found.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/404_error_page.png/1200px-404_error_page.png" style={{ display: "block", margin: "0 auto", alt: "404 Error Image" }} />
-    <a href="/" style={{ textAlign: "center", fontSize: "1em" }}>Go back to the homepage</a>
+    <main>
+ <div className="page-404">
+    <h2>404</h2>
+    <h1 >Page Not Found</h1>
+    <p >The page you are looking for could not be found.</p>
+    <Link to="/" >Go back to the homepage</Link>
   </div>
+    </main>
+   
   )
 }
 
